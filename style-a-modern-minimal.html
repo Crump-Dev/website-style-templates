@@ -1289,10 +1289,15 @@
       animation: float-bob 4.5s ease-in-out infinite;
     }
 
+    /* Mobile floating item positions */
     @media (max-width: 768px) {
-      .hero-floating {
-        display: none;
-      }
+      .hero-floating { opacity: 0.7; }
+      .hero-float-pill { font-size: 11px; padding: 6px 12px; }
+      .hero-float-icon { width: 40px; height: 40px; }
+      .hero-float-icon svg { width: 18px; height: 18px; }
+      .hero-float-1 { top: 12%; right: 4%; }
+      .hero-float-2 { bottom: 18%; left: auto; right: 4%; }
+      .hero-float-3 { bottom: 8%; right: auto; left: 4%; }
     }
 
     /* ============================================

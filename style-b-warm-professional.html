@@ -120,7 +120,13 @@
     .hero-float-trusted{top:18%;right:6%;--dur:3.5s;--rot:-2deg;background:rgba(250,248,245,.92);border:1.5px solid #b8860b;border-radius:100px;padding:.45rem 1.1rem;font-family:"Source Sans 3",sans-serif;font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#7c2d36;box-shadow:0 4px 20px rgba(184,134,11,.1)}
     .hero-float-quill{bottom:22%;left:6%;--dur:4.5s;--rot:8deg;opacity:.45}
     .hero-float-rated{bottom:16%;right:8%;--dur:4s;--rot:-1deg;background:rgba(250,248,245,.92);border:1.5px solid rgba(124,45,54,.18);border-radius:8px;padding:.4rem 1rem;font-family:"Playfair Display",serif;font-size:.85rem;font-weight:600;color:#b8860b;box-shadow:0 4px 20px rgba(124,45,54,.06)}
-    @media(max-width:768px){.hero-float{display:none}}
+    /* Mobile floating item positions */
+    @media(max-width:768px){
+      .hero-float{opacity:.7}
+      .hero-float-trusted{top:12%;right:3%;font-size:.65rem;padding:.35rem .8rem}
+      .hero-float-quill{bottom:18%;left:3%}
+      .hero-float-rated{bottom:8%;right:5%;font-size:.72rem;padding:.3rem .8rem}
+    }
 
     /* Marquee ticker */
     .marquee-band{background:#e8ede5;padding:20px 0;overflow:hidden;position:relative}
